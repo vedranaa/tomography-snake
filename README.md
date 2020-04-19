@@ -5,20 +5,17 @@ our paper
 [Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta). 
 ([Open-access, accepted author manuscript](https://backend.orbit.dtu.dk/ws/files/141005941/tomography.pdf).)
 
-
-Accepted author manuscript
-
 Please cite our paper, if you use our code in your research.
 
     @article{dahl2017computing,
         title={Computing segmentations directly from x-ray projection data via parametric deformable curves},
-        author={Dahl, Vedrana Andersen and Dahl, Anders Bjorholm and Hansen, Per Christian},
+        author={Vedrana Andersen Dahl and Anders Bjorholm Dahl and Per Christian Hansen},
         journal={Measurement Science and Technology},
         volume={29},
         number={1},
         pages={014003},
         year={2017},
-        publisher={IOP Publishing}
+        publisher={{IOP} Publishing}
     }
 
 ## Using our code
@@ -51,7 +48,7 @@ Resulting predicted sinogram | <img src="https://render.githubusercontent.com/re
 Resulting residual | <img src="https://render.githubusercontent.com/render/math?math=s-p^\mathrm{end}"> | `residual` (after evolution)
 Resulting reconstruction | <img src="https://render.githubusercontent.com/render/math?math=p^\mathrm{end}"> | obtained by `fill(current...)` 
 
-## Requirements
+## Additional requirements
 
 Most of the scripts should run as-is. However, comparison with SART and DART (Figure 13) requires
 [ASTRA toolbox](https://www.astra-toolbox.com/).
