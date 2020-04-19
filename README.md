@@ -33,7 +33,7 @@ Illustration shows Figure 7 from our paper. This is an experiment with default s
 
 `$z = x + y$`
 
-https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1.
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 Top
 row: a test object ~o, a noise-free sinogram ~s, a noisy sinogram s,
