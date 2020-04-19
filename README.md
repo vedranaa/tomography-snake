@@ -8,16 +8,15 @@ our paper
 
 If you use our code in your research, please cite our paper.
     @article{dahl2017computing,
-      title={Computing segmentations directly from x-ray projection data via parametric deformable curves},
-      author={Dahl, Vedrana Andersen and Dahl, Anders Bjorholm and Hansen, Per Christian},
-      journal={Measurement Science and Technology},
-      volume={29},
-      number={1},
-      pages={014003},
-      year={2017},
-      publisher={IOP Publishing}
+        title={Computing segmentations directly from x-ray projection data via parametric deformable curves},
+        author={Dahl, Vedrana Andersen and Dahl, Anders Bjorholm and Hansen, Per Christian},
+        journal={Measurement Science and Technology},
+        volume={29},
+        number={1},
+        pages={014003},
+        year={2017},
+        publisher={IOP Publishing}
     }
-
 
 To produce the different results shown in our paper, you will need to change the
 values of the settings and comment/uncomment pieces of code as indicated in the comments.
