@@ -1,12 +1,8 @@
 # TomographySnake
-Segmentation directly from projections using deformable curve.
 
 A collection of functions and scripts which produces slightly simplified figures used in
 our paper
-[Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta).
-
-
-If you use our code in your research, please cite our paper.
+[Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta). Please cite our paper, if you use our code in your research.
 
     @article{dahl2017computing,
         title={Computing segmentations directly from x-ray projection data via parametric deformable curves},
@@ -21,7 +17,7 @@ If you use our code in your research, please cite our paper.
 
 To produce the different results shown in our paper, you will need to change the
 values of the settings and comment/uncomment pieces of code as indicated in the comments.
-Also check our paper to see which values are reasonable.
+Also, check our paper to see which values are reasonable.
 
 Comparison with SART and DART (Figure 13) requires
 [ASTRA toolbox](https://www.astra-toolbox.com/).
