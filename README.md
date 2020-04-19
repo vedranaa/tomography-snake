@@ -34,9 +34,9 @@ Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math
 Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
 Number of iterations | *T* | `max_iter` | 500
 
-![Figure 7](/images/Figure7_sp.png)
+<img src="/images/Figure7_sp.png" width="700">
 
-Illustration shows Figure 7 from our paper with default settings as in table above and interpretation as in table below.
+Illustration (Figure 7 from our paper) is an experiment with default setting. It shows: test object, noise-free sinogram, noisy sinogram, evolution, resulting curve, resulting predicted sinogra, resulting residual and resulting reconstruction. 
 
 Variable | in paper | in code 
 ------------ | ------------- | ------------- 
