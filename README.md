@@ -20,8 +20,26 @@ our paper
 Download the code, and run it in MATLAB. To produce the different results shown in our paper, you will need to change the
 values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which values are reasonable.
 
-Illustration shows Figure 7 from our paper, 
+Illustration shows Figure 7 from our paper. This is an experiment with default settings.
+    
+    eta = 0.1; % relative noise level
+    nr_angles = 15; % number of projection angles, K in article
+    detection_number = 200; % number of detector pixels, J in article
+    N = 500; % number of curve points
+    alpha = 0.01; % curve elasticity
+    beta = 0.01; % curve rigidity
+    w = 0.05; % update step length, tau in article
+    max_iter = 500; % no. iterations
+
+Top
+row: a test object ~o, a noise-free sinogram ~s, a noisy sinogram s,
+and curve evolution showing every 25th iteration. Bottom row:
+a resulting curve cend, a resulting predicted sinogram pend, a
+resulting residual s􀀀pend, and a resulting reconstruction rend.
 ![Figure 7](/images/Figure7.png)
+
+* test object $\tilda o$
+
 
 ## Requirements
 
