@@ -3,7 +3,7 @@
 A collection of functions and scripts which produces slightly simplified figures used in
 our paper
 [Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta). 
-([Open-access, accepted author manuscript](https://backend.orbit.dtu.dk/ws/files/141005941/tomography.pdf).)
+([Open-access accepted author version of the manuscript](https://backend.orbit.dtu.dk/ws/files/141005941/tomography.pdf).)
 
 Please cite our paper, if you use our code in your research.
 
@@ -52,8 +52,8 @@ Resulting reconstruction | <img src="https://render.githubusercontent.com/render
 
 Most of the scripts should run as-is. However, comparison with SART and DART (Figure 13) requires
 [ASTRA toolbox](https://www.astra-toolbox.com/).
-Additionaly, for forward projections in Figures 14-16 in the paper we use
+Additionally, for forward projections in Figures 14-16 in the paper we use
 [AIRtools](http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html),
-but with a little bit of tweaking (as explained in the comments and included in code), `radon` function can be used instead.
+but with a little bit of tweaking (as explained in the comments and included in the code), `radon` function can be used instead.
 
 
