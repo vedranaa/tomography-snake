@@ -21,7 +21,7 @@ Download the code, and run it in MATLAB. To produce the different results shown 
 values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which values are reasonable.
 
 Variable | In paper | In code
------------- | -------------
+------------ | ------------- | -------------
 Relative noise level | <img src="https://render.githubusercontent.com/render/math?math=\eta"> | eta
 number of projection angles | K | nr_angles
 
