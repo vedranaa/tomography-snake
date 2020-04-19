@@ -20,29 +20,29 @@ our paper
 Download the code, and run it in MATLAB. To produce the different results shown in our paper, you will need to change the
 values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which value ranges are reasonable. The translation between variable names between the paper and the code is found below. 
 
-Variable | in paper | in code | defaul value
+Variable (setting) | in paper | in code | defaul value
 ------------ | ------------- | ------------- | -------------
 Relative noise level | <img src="https://render.githubusercontent.com/render/math?math=\eta"> | `eta` | 0.1
-number of projection angles | *K* | `nr_angles` | 15
-number of detector pixels | *J* | `detector_number` | 200
-number of curve points | *N* | `N` | 500
-curve elasticity | <img src="https://render.githubusercontent.com/render/math?math=\alpha"> | `alpha` | 0.01
-curve rigidity | <img src="https://render.githubusercontent.com/render/math?math=\beta"> | `beta` | 0.01
-update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
-number of iterations | *T* | `max_iter` | 500
+Number of projection angles | *K* | `nr_angles` | 15
+Number of detector pixels | *J* | `detector_number` | 200
+Number of curve points | *N* | `N` | 500
+Curve elasticity | <img src="https://render.githubusercontent.com/render/math?math=\alpha"> | `alpha` | 0.01
+Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math=\beta"> | `beta` | 0.01
+Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
+Number of iterations | *T* | `max_iter` | 500
 
-![Figure 7](/images/Figure7.png| width=500)
+![Figure 7](/images/Figure7.png | width=500)
 Illustration shows Figure 7 from our paper with default settings as in table above and interpretation as in table below.
 
 Variable | in paper | in code 
 ------------ | ------------- | ------------- 
-a test object | <img src="https://render.githubusercontent.com/render/math?math=\tilde{o}"> | `vertices` (for geometry) or `I` (for image)
-noise-free sinogram | <img src="https://render.githubusercontent.com/render/math?math=\tilde{s}"> | `sinogram_gt`
-noisy sinogram | *s* | `sinogram_target`
-resulting curve | <img src="https://render.githubusercontent.com/render/math?math=\mathbf{c}^\mathrm{end}"> | `current` (after evolution)
-resulting predicted sinogram | <img src="https://render.githubusercontent.com/render/math?math=p^\mathrm{end}"> | `current_sinogram` (after evolution)
-resulting residual | <img src="https://render.githubusercontent.com/render/math?math=s-p^\mathrm{end}"> | `residual` (after evolution)
-resulting reconstruction | <img src="https://render.githubusercontent.com/render/math?math=p^\mathrm{end}"> | obtained by `fill(current...)` 
+Test object | <img src="https://render.githubusercontent.com/render/math?math=\tilde{o}"> | `vertices` (for geometry) or `I` (for image)
+Noise-free sinogram | <img src="https://render.githubusercontent.com/render/math?math=\tilde{s}"> | `sinogram_gt`
+Noisy sinogram | *s* | `sinogram_target`
+Resulting curve | <img src="https://render.githubusercontent.com/render/math?math=\mathbf{c}^\mathrm{end}"> | `current` (after evolution)
+Resulting predicted sinogram | <img src="https://render.githubusercontent.com/render/math?math=p^\mathrm{end}"> | `current_sinogram` (after evolution)
+Resulting residual | <img src="https://render.githubusercontent.com/render/math?math=s-p^\mathrm{end}"> | `residual` (after evolution)
+Resulting reconstruction | <img src="https://render.githubusercontent.com/render/math?math=p^\mathrm{end}"> | obtained by `fill(current...)` 
 
 ## Requirements
 
