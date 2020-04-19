@@ -3,8 +3,7 @@ Segmentation directly from projections using deformable curve.
 
 A collection of functions and scripts which produces slightly simplified figures used in
 our paper
-[Computing segmentations directly from x-ray projection data via parametric deformable curves]
-(https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta).
+[Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta).
 
 
 If you use our code in your research, please cite our paper.
@@ -25,10 +24,8 @@ values of the settings and comment/uncomment pieces of code as indicated in the 
 Also check our paper to see which values are reasonable.
 
 Comparison with SART and DART (Figure 13) requires
-[ASTRA toolbox]
-(https://www.astra-toolbox.com/). 
+[ASTRA toolbox](https://www.astra-toolbox.com/).
 For forward projections in Figures 14-16 we use
-[AIRtools]
-(http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html),
+[AIRtools](http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html),
 but with a little bit of tweaking (as explained in the
 comments), Matlabs `radon` function can be used instead.
