@@ -31,7 +31,7 @@ Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math
 Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
 Number of iterations | *T* | `max_iter` | 500
 
-![Figure 7](/images/Figure7.png)<!-- .element height="50%" width="50%" -->
+![Figure 7](/images/Figure7.png)<!-- .element height="25%" width="25%" -->
 Illustration shows Figure 7 from our paper with default settings as in table above and interpretation as in table below.
 
 Variable | in paper | in code 
@@ -46,11 +46,10 @@ Resulting reconstruction | <img src="https://render.githubusercontent.com/render
 
 ## Requirements
 
-Comparison with SART and DART (Figure 13) requires
+Most of the scripts should run as-is. However, comparison with SART and DART (Figure 13) requires
 [ASTRA toolbox](https://www.astra-toolbox.com/).
-For forward projections in Figures 14-16 we use
+Additionaly, for forward projections in Figures 14-16 in the paper we use
 [AIRtools](http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html),
-but with a little bit of tweaking (as explained in the
-comments), `radon` function can be used instead.
+but with a little bit of tweaking (as explained in the comments and included in code), `radon` function can be used instead.
 
 
