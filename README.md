@@ -30,4 +30,4 @@ For forward projections in Figures 14-16 we use
 but with a little bit of tweaking (as explained in the
 comments), `radon` function can be used instead.
 
-![Figure 7](https://github.com/vedranaa/TomographySnake/blob/master/images/Figure7.pdf)
+![Figure 7](https://github.com/vedranaa/TomographySnake/blob/master/images/Figure7.png)
