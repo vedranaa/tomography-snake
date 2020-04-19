@@ -43,10 +43,7 @@ if has_air
     bins = -(D-1)/2:(D-1)/2;
     A = paralleltomo(D,angles*180/pi,D,(D-1));
     sinogram_gt = reshape(A*I(:),[D,numel(angles)]);
-    rng(0); e = randn(D,nr_angles); % realization of noise
-    noise = norm(sinogram_gt(:))*e/norm(e(:)); % final additive noise
-    sinogram_target = sinogram_gt + eta*noise; % noisy sinogram
-    
+    sinogram_target = add_noise(sinogram_gt,eta);
 else
     %% using matlab radon transform -- two possibilities
     % In lack of AIR tools, matlabs own randon can be used to produce
@@ -57,18 +54,14 @@ else
     % % Approach A)
     % sinogram_gt = radon(I,angles*180/pi);
     % bins = linspace(-1,1,size(sinogram_gt,1))*size(sinogram_gt,1)/2;
-    % rng(0); e = randn(numel(bins),nr_angles); % realization of noise   
-    % noise = norm(sinogram_gt(:))*e/norm(e(:)); % final additive noise
-    % sinogram_target = sinogram_gt + eta*noise;
+    % sinogram_target = add_noise(sinogram_gt,eta);
     
     % Approach B)
     sinogram_gt = radon(I,angles*180/pi);
     m = (size(sinogram_gt,1)-D)/2; 
     sinogram_gt = 0.5*(sinogram_gt(1+floor(m):end-ceil(m),:) + sinogram_gt(1+ceil(m):end-floor(m),:));
     bins = -(D-1)/2:(D-1)/2;
-    rng(0); e = randn(D,nr_angles); % realization of noise
-    noise = norm(sinogram_gt(:))*e/norm(e(:)); % final additive noise
-    sinogram_target = sinogram_gt + eta*noise;
+    sinogram_target = add_noise(sinogram_gt,eta);
 end
 
 %%

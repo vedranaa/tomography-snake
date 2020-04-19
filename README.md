@@ -28,4 +28,6 @@ Comparison with SART and DART (Figure 13) requires
 For forward projections in Figures 14-16 we use
 [AIRtools](http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html),
 but with a little bit of tweaking (as explained in the
-comments), Matlabs `radon` function can be used instead.
+comments), `radon` function can be used instead.
+
+![Figure 7](/images/Figures7.pdf)
