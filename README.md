@@ -31,7 +31,9 @@ Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math
 Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
 Number of iterations | *T* | `max_iter` | 500
 
-![Figure 7](/images/Figure7.png)<!-- .element height="10%" width="10%" -->
+[[ /images/Figure7.png | height = 200px ]]
+![Figure 7](/images/Figure7.png)
+<img src="/images/Figure7.png" width="200">
 Illustration shows Figure 7 from our paper with default settings as in table above and interpretation as in table below.
 
 Variable | in paper | in code 
