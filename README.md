@@ -34,7 +34,7 @@ Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math
 Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
 Number of iterations | *T* | `max_iter` | 500
 
-<img src="/images/Figure7.png" width="700">
+![](/images/Figure7_sp.png)
 
 Illustration shows Figure 7 from our paper with default settings as in table above and interpretation as in table below.
 
