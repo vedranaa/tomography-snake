@@ -7,6 +7,7 @@ our paper
 
 
 If you use our code in your research, please cite our paper.
+
     @article{dahl2017computing,
         title={Computing segmentations directly from x-ray projection data via parametric deformable curves},
         author={Dahl, Vedrana Andersen and Dahl, Anders Bjorholm and Hansen, Per Christian},
