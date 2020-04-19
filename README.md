@@ -18,7 +18,7 @@ our paper
 ## Using our code
 
 Download the code, and run it in MATLAB. To produce the different results shown in our paper, you will need to change the
-values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which values are reasonable.
+values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which value ranges are reasonable. The translation between variable names between the paper and the code is found below. 
 
 Variable | in paper | in code | defaul value
 ------------ | ------------- | ------------- | -------------
@@ -31,18 +31,18 @@ curve rigidity | <img src="https://render.githubusercontent.com/render/math?math
 update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
 number of iterations | *T* | `max_iter` | 500
 
-
-Illustration shows Figure 7 from our paper with default settings.
-
-Top
-row: a test object ~o, a noise-free sinogram ~s, a noisy sinogram s,
-and curve evolution showing every 25th iteration. Bottom row:
-a resulting curve cend, a resulting predicted sinogram pend, a
-resulting residual s􀀀pend, and a resulting reconstruction rend.
 ![Figure 7](/images/Figure7.png)
+Illustration shows Figure 7 from our paper with default settings as in table above and interpretation as in table below.
 
-* test object $\tilda o$
-
+Variable | in paper | in code 
+------------ | ------------- | ------------- 
+a test object | <img src="https://render.githubusercontent.com/render/math?math=\tilde{o}"> | `vertices` or `I` 
+noise-free sinogram | <img src="https://render.githubusercontent.com/render/math?math=\tilde{s}"> | `sinogram_gt`
+noisy sinogram | *s* | `sinogram_target`
+resulting curve | | 
+resulting predicted sinogram | | 
+resulting residual | | 
+resultin reconstruction | | 
 
 ## Requirements
 
