@@ -1,4 +1,5 @@
 function S = remove_crossings(S)
+% S = REMOVE_CROSSINGS(S)   Heuristics for removing crossings for closed snake.
 % author abda@dtu.dk, 2014
 
 S1 = [S;S(1,:)];

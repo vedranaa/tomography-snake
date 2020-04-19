@@ -1,8 +1,6 @@
 function XY = remove_crossings(XY)
-%XY = REMOVE_CROSSINGS(XY)
-%   Heuristics for removing corssings for closed snake.
-%   Faster than older version, but with higher risk of not removing all
-%   crossings.
+%XY = REMOVE_CROSSINGS(XY)   Heuristics for removing crossings for closed snake.
+%   Faster than older version, but with higher risk of not removing all crossings.
 %   Author: Janus Nørtoft Jensen, jnje@dtu.dk, december 2016
 
 n = size(XY,1);
