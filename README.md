@@ -25,7 +25,7 @@ Illustration (Figure 7 from our paper) shows, *top row*: test object, noise-free
 ## Using our code
 
 Download the code, and run it in MATLAB. To produce the different results shown in our paper, you will need to change the
-values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which value ranges are reasonable. The translation between variable names between the paper and the code is found below. 
+values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which value ranges are reasonable. The translation between variable names in the paper and in the code is found below. 
 
 Variable (setting) | in paper | in code | defaul value
 ------------ | ------------- | ------------- | -------------
