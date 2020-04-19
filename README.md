@@ -26,23 +26,23 @@ values of the settings and comment/uncomment pieces of code as indicated in the 
 Variable (setting) | in paper | in code | defaul value
 ------------ | ------------- | ------------- | -------------
 Relative noise level | <img src="https://render.githubusercontent.com/render/math?math=\eta"> | `eta` | 0.1
-Number of projection angles | *K* | `nr_angles` | 15
-Number of detector pixels | *J* | `detector_number` | 200
-Number of curve points | *N* | `N` | 500
+Number of projection angles | <img src="https://render.githubusercontent.com/render/math?math=K"> | `nr_angles` | 15
+Number of detector pixels | <img src="https://render.githubusercontent.com/render/math?math=J"> | `detector_number` | 200
+Number of curve points | <img src="https://render.githubusercontent.com/render/math?math=N"> | `N` | 500
 Curve elasticity | <img src="https://render.githubusercontent.com/render/math?math=\alpha"> | `alpha` | 0.01
 Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math=\beta"> | `beta` | 0.01
 Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
-Number of iterations | *T* | `max_iter` | 500
+Number of iterations | <img src="https://render.githubusercontent.com/render/math?math=T"> | `max_iter` | 500
 
 <img src="/images/Figure7_sp.png" width="700">
 
-Illustration (Figure 7 from our paper) is an experiment with default setting. It shows: test object, noise-free sinogram, noisy sinogram, evolution, resulting curve, resulting predicted sinogra, resulting residual and resulting reconstruction. 
+Illustration (Figure 7 from our paper) is an experiment with default setting. It shows: test object, noise-free sinogram, noisy sinogram, evolution, resulting curve, resulting predicted sinogram, resulting residual and resulting reconstruction. 
 
 Variable | in paper | in code 
 ------------ | ------------- | ------------- 
 Test object | <img src="https://render.githubusercontent.com/render/math?math=\tilde{o}"> | `vertices` (for geometry) or `I` (for image)
 Noise-free sinogram | <img src="https://render.githubusercontent.com/render/math?math=\tilde{s}"> | `sinogram_gt`
-Noisy sinogram | *s* | `sinogram_target`
+Noisy sinogram | <img src="https://render.githubusercontent.com/render/math?math=s"> | `sinogram_target`
 Resulting curve | <img src="https://render.githubusercontent.com/render/math?math=\mathbf{c}^\mathrm{end}"> | `current` (after evolution)
 Resulting predicted sinogram | <img src="https://render.githubusercontent.com/render/math?math=p^\mathrm{end}"> | `current_sinogram` (after evolution)
 Resulting residual | <img src="https://render.githubusercontent.com/render/math?math=s-p^\mathrm{end}"> | `residual` (after evolution)
