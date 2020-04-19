@@ -20,25 +20,20 @@ our paper
 Download the code, and run it in MATLAB. To produce the different results shown in our paper, you will need to change the
 values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which values are reasonable.
 
-Variable | In paper | In code
+Variable | in paper | in code | defaul value
 ------------ | ------------- | -------------
-Relative noise level | <img src="https://render.githubusercontent.com/render/math?math=\eta"> | eta
-number of projection angles | K | nr_angles
+Relative noise level | <img src="https://render.githubusercontent.com/render/math?math=\eta"> | `eta` | 0.1
+number of projection angles | *K* | `nr_angles` | 15
+number of detector pixels | *J* | `detector_number` | 200
+number of curve points | *N* | `N` | 500
+curve elasticity | <img src="https://render.githubusercontent.com/render/math?math=\alpha"> | `alpha` | 0.01
+curve rigidity | <img src="https://render.githubusercontent.com/render/math?math=\beta"> | `beta` | 0.01
+update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
+number of iterations | *T* | `max_iter` | 500
 
-Illustration shows Figure 7 from our paper. This is an experiment with default settings.
+
+Illustration shows Figure 7 from our paper with default settings.
     
-    eta = 0.1; % relative noise level
-    nr_angles = 15; % number of projection angles, K in article
-    detection_number = 200; % number of detector pixels, J in article
-    N = 500; % number of curve points
-    alpha = 0.01; % curve elasticity
-    beta = 0.01; % curve rigidity
-    w = 0.05; % update step length, tau in article
-    max_iter = 500; % no. iterations
-
-`$z = x + y$`
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 Top
 row: a test object ~o, a noise-free sinogram ~s, a noisy sinogram s,
