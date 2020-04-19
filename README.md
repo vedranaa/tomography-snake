@@ -17,6 +17,10 @@ Please cite our paper, if you use our code in your research.
         year={2017},
         publisher={{IOP} Publishing}
     }
+    
+<img src="/images/Figure7_sp.png" width="700">
+
+Illustration (Figure 7 from our paper) shows, *top row*: test object, noise-free sinogram, noisy sinogram, evolution; *bottom row*: resulting curve, resulting predicted sinogram, resulting residual and resulting reconstruction.     
 
 ## Using our code
 
@@ -33,10 +37,6 @@ Curve elasticity | <img src="https://render.githubusercontent.com/render/math?ma
 Curve rigidity | <img src="https://render.githubusercontent.com/render/math?math=\beta"> | `beta` | 0.01
 Update step length | <img src="https://render.githubusercontent.com/render/math?math=\tau"> | `w` | 0.05
 Number of iterations | <img src="https://render.githubusercontent.com/render/math?math=T"> | `max_iter` | 500
-
-<img src="/images/Figure7_sp.png" width="700">
-
-Illustration (Figure 7 from our paper) is an experiment with default setting. It shows, *top row*: test object, noise-free sinogram, noisy sinogram, evolution; *bottom row:* resulting curve, resulting predicted sinogram, resulting residual and resulting reconstruction. 
 
 Variable | in paper | in code 
 ------------ | ------------- | ------------- 
