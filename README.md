@@ -21,7 +21,7 @@ Download the code, and run it in MATLAB. To produce the different results shown 
 values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which values are reasonable.
 
 Variable | in paper | in code | defaul value
------------- | ------------- | -------------
+------------ | ------------- | ------------- | -------------
 Relative noise level | <img src="https://render.githubusercontent.com/render/math?math=\eta"> | `eta` | 0.1
 number of projection angles | *K* | `nr_angles` | 15
 number of detector pixels | *J* | `detector_number` | 200
@@ -33,7 +33,6 @@ number of iterations | *T* | `max_iter` | 500
 
 
 Illustration shows Figure 7 from our paper with default settings.
-    
 
 Top
 row: a test object ~o, a noise-free sinogram ~s, a noisy sinogram s,
