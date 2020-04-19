@@ -15,9 +15,15 @@ our paper
         publisher={IOP Publishing}
     }
 
-To produce the different results shown in our paper, you will need to change the
-values of the settings and comment/uncomment pieces of code as indicated in the comments.
-Also, check our paper to see which values are reasonable.
+## Using our code
+
+Download the code, and run it in MATLAB. To produce the different results shown in our paper, you will need to change the
+values of the settings and comment/uncomment pieces of code as indicated in the comments. Also, check our paper to see which values are reasonable.
+
+Illustration shows Figure 7 from our paper, 
+![Figure 7](/images/Figure7.png)
+
+## Requirements
 
 Comparison with SART and DART (Figure 13) requires
 [ASTRA toolbox](https://www.astra-toolbox.com/).
@@ -26,4 +32,4 @@ For forward projections in Figures 14-16 we use
 but with a little bit of tweaking (as explained in the
 comments), `radon` function can be used instead.
 
-![Figure 7](/images/Figure7.png)
+
