@@ -31,6 +31,8 @@ Illustration shows Figure 7 from our paper. This is an experiment with default s
     w = 0.05; % update step length, tau in article
     max_iter = 500; % no. iterations
 
+`$z = x + y$`
+
 Top
 row: a test object ~o, a noise-free sinogram ~s, a noisy sinogram s,
 and curve evolution showing every 25th iteration. Bottom row:
