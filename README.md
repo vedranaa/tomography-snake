@@ -36,7 +36,7 @@ Number of iterations | <img src="https://render.githubusercontent.com/render/mat
 
 <img src="/images/Figure7_sp.png" width="700">
 
-Illustration (Figure 7 from our paper) is an experiment with default setting. It shows: test object, noise-free sinogram, noisy sinogram, evolution, resulting curve, resulting predicted sinogram, resulting residual and resulting reconstruction. 
+Illustration (Figure 7 from our paper) is an experiment with default setting. It shows, *top row*: test object, noise-free sinogram, noisy sinogram, evolution; *bottom row:* resulting curve, resulting predicted sinogram, resulting residual and resulting reconstruction. 
 
 Variable | in paper | in code 
 ------------ | ------------- | ------------- 
