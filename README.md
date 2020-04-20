@@ -53,8 +53,7 @@ Resulting reconstruction | <img src="https://render.githubusercontent.com/render
 
 Most of the scripts should run as-is. However, comparison with SART and DART (Figure 13) requires
 [ASTRA toolbox](https://www.astra-toolbox.com/).
-Additionally, for forward projections in Figures 14-16 in the paper we use
-[AIRtools](http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html),
-but with a little bit of tweaking (as explained in the comments and included in the code), `radon` function can be used instead.
+Additionally, for forward projections in Figures 14-16 we use
+[AIRtools](http://www.imm.dtu.dk/~pcha/AIRtoolsII/index.html) for results included in the paper. However, with a little bit of tweaking (as explained in the comments and included in the code), `radon` function can be used instead.
 
 
