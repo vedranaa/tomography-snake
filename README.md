@@ -2,8 +2,8 @@
 
 A collection of functions and scripts which produces slightly simplified figures used in
 our paper
-[Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta). 
-([Open-access accepted author version of the manuscript](https://backend.orbit.dtu.dk/ws/files/141005941/tomography.pdf).)
+[Computing segmentations directly from x-ray projection data via parametric deformable curves](https://iopscience.iop.org/article/10.1088/1361-6501/aa950e/meta). Open-access accepted author version of the manuscript can be found 
+[here](https://backend.orbit.dtu.dk/ws/files/141005941/tomography.pdf).
 
 Please cite our paper, if you use our code in your research.
 
