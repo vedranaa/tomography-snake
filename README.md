@@ -19,8 +19,8 @@ Please cite our paper, if you use our code in your research.
     
 <img src="/images/Figure7_sp.png" width="700">
 
-Illustration (Figure 7 from our paper) shows,/
-*top row*: test object, noise-free sinogram, noisy sinogram, evolution of the curve starting from the circle;/
+Illustration (Figure 7 from our paper) shows,\
+*top row*: test object, noise-free sinogram, noisy sinogram, evolution of the curve starting from the circle;\
 *bottom row*: resulting curve, resulting predicted sinogram, resulting residual and resulting reconstruction.     
 
 ## Using our code
